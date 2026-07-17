@@ -1,0 +1,76 @@
+/* Steel Energy Dashboard styles (served from /static) */
+body {
+    font-family: sans-serif;
+    background: #f5f7fa;
+    display: flex;
+    justify-content: center;
+    padding: 30px 15px;
+}
+
+.card {
+    background: #fdfdfd;
+    padding: 25px;
+    border: 3px solid #1a73e8;
+    border-radius: 15px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    color: #1a73e8;
+    margin-top: 0;
+}
+
+.insights {
+    background: #e8f0fe;
+    padding: 10px 14px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+.insights ul {
+    margin: 6px 0 0;
+    padding-left: 18px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.grid input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.predict-btn {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background: #34a853;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.predict-btn:hover {
+    background: #2c8c46;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f1f3f4;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
